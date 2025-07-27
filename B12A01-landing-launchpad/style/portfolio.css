@@ -56,9 +56,10 @@ nav {
  .logo{
     text-decoration: none;
     color: #4E47FF;
-    font-weight: rgb(138, 100, 100);
+    font-weight: bold;
+    letter-spacing: 0;
     font-size: 34px;
-    ;
+    
 }
  /* banner section */
 
