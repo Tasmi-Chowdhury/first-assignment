@@ -6,10 +6,18 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.inter-for-data {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: auto;
 }
 /* header-style */
 .header {
@@ -44,6 +52,12 @@ body {
     text-decoration: none;
 }
 
+.secondary-bg {
+    background-color: #4778ff13;
+    margin-top: 0px;
+    padding: 0.5px 0;
+}
+
 /* nav-style */
 nav {
     display: flex;
@@ -61,7 +75,7 @@ nav {
     font-size: 34px;
     
 }
- /* banner section */
+ /* banner section style */
 
 .banner-section {
     padding: 190px 260px  145px 280px;
@@ -79,9 +93,102 @@ nav {
     color: #252432;
     margin-bottom: 37px;
 }
- .banner-bt {
-    /* margin-bottom: 50px; */
+/* Main section */
+/* Action Section style */
+
+
+.action-section {
+    display: flex;
+    /* max-width: 517px; */
+    /* max-height: 203px; */
+    
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 116px 159px 116px 141px;
+    /* background-color: white; */
+}
+.section-content {
+    padding: 62.5px 220px 62.5px 0;
+    gap: 23px;
+
+
+}
+.title {
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 0px;
+    line-height: auto;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+
+.subtitle {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #25243260;
+    
+    margin-bottom: 23px;
+}
+.section-img {
+    max-width: 403px;
+    max-height: 328px;
+    border-radius: 48px;
+}
+ /* Productive Users Section style */
+
+.productive-users {
+    background-color: #4d47ff17;
+    align-items: center;
+    margin: 116px 159px 116px 141px;
+    border-radius: 24px;
+    padding: 50px 142px;
+
+}
+ .headline {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 0px;
+    /* padding: 50px 142px 40px; */
+    padding-left: 35px;
+    
+    
  }
+ .data-with-subtitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 145px;
+    
+   
+   
+    
+ }
+
+ .data-info h2 {
+    
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 1px;
+    
+    text-align: center;
+ }
+ .data-info p {
+    font-weight: 400px;
+    font-size: 20px;
+    color: #0000005b;
+    /* padding-bottom: 50px; */
+    text-align: center;
+ }
+
+
+ 
     
    
 
