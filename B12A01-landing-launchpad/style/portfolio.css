@@ -256,3 +256,42 @@ nav {
     
 }
 
+/* Ready to focus better- section  */
+
+.focus {
+max-width: 1140px;
+max-height: 695px;
+margin: 116px 159px 92.23px 141px;
+background-color: white;
+padding: 71px;
+border-radius: 14px;
+gap: 20px;
+}
+.focus h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.focus p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #1e1e1ee0;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+ .button {
+    text-align: center;
+    position: center;
+    margin-bottom: 30px;
+    
+}
+.focus img {
+    max-width: 830px;
+    max-height: 360px;
+    border-radius: 48px;
+    margin: 0px 30px 0px 30px;
+    
+    
+}
