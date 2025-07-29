@@ -18,6 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     display: auto;
+    
 }
 /* header-style */
 .header {
@@ -66,6 +67,7 @@ nav {
     margin: 0 150px;
      /* margin-top: 50px; */
      
+     
 }
  .logo{
     text-decoration: none;
@@ -81,11 +83,13 @@ nav {
     padding: 190px 260px  145px 280px;
     text-align: center;
     justify-content: space-around;
+
    
 }
 .banner {
     max-width: 905px;
     margin: 0 auto;
+    
 }
 .banner-title {
     font-size: 65px;
@@ -178,6 +182,7 @@ nav {
     margin-bottom: 1px;
     
     text-align: center;
+    
  }
  .data-info p {
     font-weight: 400px;
@@ -187,13 +192,67 @@ nav {
     text-align: center;
  }
 
+ /* Users Feedback Section */   
 
- 
+
+ .feedback-section {
+   
+    margin: 137px 159px 137px 141px;
+    padding: 0px;
+    align-items: center;
+ }
+ .feedback-section h2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .feedback-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+ }
+.feedback-card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+    width: 337px;
+    text-align: left;
+    border: 0.5px solid #b3b3b338;
+}
+.star {
+    display: flex;
+    color: #FFB805;
+    margin-bottom: 24px;
+}
+.feedback-card h3 {
+    font-size: 20px;
+    /* margin-bottom: 8px; */
+}
+.feedback-card p {
+    font-size: 14px;
+    margin: 8px 24px 24px 0;
+    color: #1e1e1ee0;
+}
+.review {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.review img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.name {
+    color: #757575;
+    font-size: 15px;
+}
+.review time {
+    font-size: 15px;
+    color: #B3B3B3;
     
-   
+}
 
-   
-   
-
-
-    
