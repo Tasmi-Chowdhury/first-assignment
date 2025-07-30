@@ -21,10 +21,16 @@
     
 }
 
-
+body {
+     max-width: 1440px;
+    margin: 0 auto;
+}
 /* header-style */
 
-
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .header {
 
     background-image: url('../Assets/Hero-bg.png');
@@ -40,10 +46,7 @@
     padding: 50px 0;
 
 }
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 /* shared-style */
@@ -387,17 +390,16 @@ form {
 
 footer {
     background-color: white;
-
-   
-
+    
     
 }
 .footer-section {
 
     justify-content: center;
     gap: 30px;
-    padding: 104px 440px 20px;
+    padding: 0px 440px 20px;
     text-align: center;
+    margin-top: 102px;
 }
 .footer-section a {
     font-size: 95px;
@@ -405,6 +407,7 @@ footer {
 
     padding: 0;
     margin-bottom: 8px;
+    
     
 
 }
@@ -427,6 +430,7 @@ footer nav {
     justify-content: space-around;
     /* margin: 0 200px 0 226px; */
     padding: 0px;
+    margin-bottom: 100px;
 
 }
     
