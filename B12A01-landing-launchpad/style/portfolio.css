@@ -49,6 +49,7 @@ header {
 
 /* shared-style */
 .btn-primary {
+    display: inline-block;
     background-color: #4E47FF;
     font-weight: bold;
     font-size: 16px;
@@ -57,8 +58,14 @@ header {
     border-radius: 10px;
     border: none;
     text-decoration: none;
+    transition: all 0.5s;
 }
-
+.btn-primary:hover {
+    background-color: rgba(219, 219, 40, 0.801);
+    transform: scale(1.05);
+    color: rgba(0, 0, 0, 0.815);
+    
+}
 .secondary-bg {
     background-color: #4778ff13;
     margin-top: 0px;
@@ -71,6 +78,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 150px;
+    
      
 }
  .logo{
@@ -87,6 +95,7 @@ nav {
     padding: 190px 260px  145px 280px;
     text-align: center;
     justify-content: space-around;
+   
 
    
 }
@@ -100,6 +109,8 @@ nav {
     font-weight: bold;
     color: #252432;
     margin-bottom: 37px;
+
+
 }
 /* Main section */
 
@@ -301,6 +312,7 @@ gap: 20px;
     text-align: center;
     position: center;
     margin-bottom: 30px;
+     
     
 }
 .focus img {
