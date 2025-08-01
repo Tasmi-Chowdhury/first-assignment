@@ -206,9 +206,10 @@ nav {
 
 
  .feedback-section {
-    /* margin: 137px 159px 137px 141px; */
-    padding: 100px 0px;
-    margin: 0 auto;
+    margin: 137px 159px 137px 141px;
+    max-width: 1140px;
+    padding: 0px;
+    /* margin: 0 auto; */
     
    
 
@@ -217,14 +218,15 @@ nav {
     display: flex;
     gap: 20px;
     justify-content: center;
-    max-width: 1140px; 
-    margin: 0 auto; 
+    align-items: center;
+    max-width: 1140px;
+    /* margin: 0 auto;  */
     /* padding: 0 20px; */
+    
     width: 100%;
     box-sizing: border-box;
-    margin-right: 159px;
-    margin-left: 141px;
-   
+
+    
  }
  .feedback-section h2 {
     font-weight: bold;
@@ -233,14 +235,14 @@ nav {
     max-width: 1140px;
     margin-bottom: 50px;
     /* padding-right: 159px; */
-    padding-left: 280px;
+    /* padding-left: 280px; */
  }
 
 
 .feedback-card {
     background-color: rgba(255, 255, 255, 0.486);
     max-height: 243px;
-    max-width: 366.67px;
+    max-width: 366.66px;
     border-radius: 14px;
     padding: 24px;
     text-align: left;
